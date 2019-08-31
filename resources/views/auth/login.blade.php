@@ -70,7 +70,7 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
-                                <a href="{{url('login/google')}}"><img src="{{'assets/img/sign.png'}}" alt="" style='display:block; width:230px;'></a>
+                                <a href="{{url('login/google')}}"><img src="{{'assets/img/sign.png'}}"  class="mt-2" style='display:block; width:230px;'></a>
                             </div>
                         </div>
                     </form>
